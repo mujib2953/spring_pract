@@ -13,6 +13,8 @@ public class HelloSpringApp {
 
         // --- call the methods on the bean
         System.out.println(theCoach.getDailyWorkout());
+        // --- new DI method from Fortune Service
+        System.out.println(theCoach.getDailyFortune());
 
         // --- close the context
         context.close();

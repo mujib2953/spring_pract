@@ -8,5 +8,5 @@
     <bean id="myCoach" class="com.learn2code.springdemo.BaseballCoach">
         <constructor-arg ref="myFortune" />
     </bean>
-    
+
 </beans>
