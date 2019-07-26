@@ -15,6 +15,9 @@ public class SetterDemoApp {
         System.out.println(tennisCoach.getDailyWorkout());
         System.out.println("Regards from Tennis Coach : " + tennisCoach.getDailyFortune());
 
+        System.out.println(tennisCoach.getEmail());
+        System.out.println(tennisCoach.getTeam());
+
         // --- close the context
         context.close();
     }
