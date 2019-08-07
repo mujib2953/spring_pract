@@ -8,9 +8,10 @@
 
     <!-- defining the dependency -->
     <bean id="myFortune" class="com.learn2code.springdemo.HappyFortuneService" />
+    <bean id="randomFortune" class="com.learn2code.springdemo.RandomFortuneService" />
 
     <bean id="myCoach" class="com.learn2code.springdemo.TrackCoach">
-        <constructor-arg ref="myFortune" />
+        <constructor-arg ref="randomFortune" />
     </bean>
 
     <bean
