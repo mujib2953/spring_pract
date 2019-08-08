@@ -6,7 +6,7 @@
 
 
         <bean id="onlineGamingServiceBean" class="com.learn2code.beanscope.OnlineGammingService" />
-        <bean id="videoGamerBean" class="com.learn2code.beanscope.VideoGamer">
+        <bean id="videoGamerBean" class="com.learn2code.beanscope.VideoGamer" scope="prototype">
             <property name="gammingService" ref="onlineGamingServiceBean" />
         </bean>
 
